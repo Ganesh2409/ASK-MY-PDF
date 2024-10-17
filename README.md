@@ -30,7 +30,7 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
 
 ## 📁 Directory Structure
 
-document_buddy_app/
+ASK-MY-PDF/
 ```
 ├── app.py
 ├── chatbot.py
