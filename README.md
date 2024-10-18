@@ -33,8 +33,10 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
 ASK-MY-PDF/
 ```
 ├── app.py
+├── Attention Is All U Need.pdf
 ├── chatbot.py
 │── logo.png
+├── README.md
 ├── requirements.txt
 ├── vectors.py
 ```
