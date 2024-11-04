@@ -51,7 +51,7 @@ class ChatbotManager:
         self.llm = ChatOllama(
             model=self.llm_model,
             temperature=self.llm_temperature,
-            # Add other parameters if needed
+
         )
 
         # Define the prompt template
