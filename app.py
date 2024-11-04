@@ -170,7 +170,7 @@ elif choice == "📧 Contact":
     st.markdown("""
     We'd love to hear from you! Whether you have a question, feedback, or want to contribute, feel free to reach out.
 
-    - **Email:** [developer@example.com](mailto:pinnamaneniganesh24@gmail.com) ✉️
+    - **Email:** [developer@example.com](mailto:ganeshchowdhary2409@gmail.com) ✉️
     - **GitHub:** [Contribute on GitHub](https://github.com/Ganesh2409/ASKMYPDF) 🛠️
 
     If you'd like to request a feature or report a bug, please open a pull request on our GitHub repository. Your contributions are highly appreciated! 🙌
