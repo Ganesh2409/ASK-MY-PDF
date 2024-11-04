@@ -76,8 +76,23 @@ Once the environment is set up (whether venv or Conda), install the required dep
 ```bash
 pip install -r requirements.txt
 ```
+## 4. Running Qdrant in Docker
 
-### 4. Run the App
+To run Qdrant using Docker, follow these steps:
+
+1. **Install Docker**: Make sure you have Docker installed on your machine. You can download it from [Docker's official website](https://www.docker.com/get-started).
+
+2. **Pull the Qdrant Docker Image**: Open your terminal and run the following command to pull the latest Qdrant image:
+
+   ```bash
+   docker pull qdrant/qdrant
+   ```
+
+   ```bash
+   docker run -p 6333:6333 qdrant/qdrant
+   ```
+
+### 5. Run the App
 
 Start the Streamlit app using the following command:
 ```bash
@@ -133,7 +148,7 @@ Feel free to reach out for any queries, suggestions, or contributions. Your feed
 
 •	Qdrant Documentation: https://qdrant.tech/documentation/
 
-•	ChatOllama Documentation: https://github.com/langchain-ai/langchain-llms#ollama
+•	ChatOllama Documentation: https://github.com/ollama/ollama
 
 ```
 © 2024 ASK-MY-PDF. Made with ❤️
