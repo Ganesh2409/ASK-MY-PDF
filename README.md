@@ -40,65 +40,74 @@ ASK-MY-PDF/
 ├── requirements.txt
 ├── vectors.py
 ```
+Here’s the updated setup with **Step 5** added for installing and running **Ollama with Llama 3.2** on Windows. 🚀  
 
-## 🚀 Getting Started
+---
 
-Follow these instructions to set up and run the Document Buddy App on your local machine.
+## **🚀 Getting Started**  
 
-### 1. Clone the Repository
+Follow these instructions to set up and run the **Ask-My-Pdf App** on your Windows machine.  
 
+### **1. Clone the Repository**  
 ```bash
 git clone https://github.com/Ganesh2409/ASK-MY-PDF.git
 cd ASK-MY-PDF
 ```
 
-### 2. Create a Virtual Environment 
+### **2. Create a Virtual Environment**  
+Use Python’s `venv` for managing dependencies.  
 
-You can either use Python’s venv or Anaconda to create a virtual environment for managing dependencies.
-
-Option 1: Using venv
-
-On Windows:
-```
+#### **On Windows**  
+```bash
 python -m venv venv
-
 ```
-Activate the venv
+Activate the virtual environment:  
+```bash
+cd venv\Scripts\activate
 ```
- cd venv\Scripts\activate
-```
 
-
-
-### 3. Install Dependencies
-
-Once the environment is set up (whether venv or Conda), install the required dependencies using requirements.txt:
+### **3. Install Dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
-## 4. Running Qdrant in Docker
 
-To run Qdrant using Docker, follow these steps:
+---
 
-1. **Install Docker**: Make sure you have Docker installed on your machine. You can download it from [Docker's official website](https://www.docker.com/get-started).
+## **4. Running Qdrant in Docker**  
 
-2. **Pull the Qdrant Docker Image**: Open your terminal and run the following command to pull the latest Qdrant image:
+1️⃣ **Install Docker**: [Download Docker](https://www.docker.com/get-started)  
 
-   ```bash
-   docker pull qdrant/qdrant
-   ```
+2️⃣ **Pull & Run Qdrant**  
+```bash
+docker pull qdrant/qdrant
+docker run -p 6333:6333 qdrant/qdrant
+```
+✅ **Qdrant should now be running at** `http://localhost:6333`
 
-   ```bash
-   docker run -p 6333:6333 qdrant/qdrant
-   ```
+---
 
-### 5. Run the App
+## **5. Install Ollama and Run Llama 3.2**  
 
-Start the Streamlit app using the following command:
+1️⃣ **Download and Install Ollama**  
+[Download Ollama for Windows](https://ollama.com/download)  
+
+2️⃣ **Open Command Prompt and Pull Llama 3.2 Model**  
+```bash
+ollama pull llama3:3b
+```
+3️⃣ **Run Llama 3.2 Locally**  
+```bash
+ollama run llama3:3b
+```
+✅ **Llama 3.2 is now running and ready for processing!**  
+
+---
+
+## **6. Run the Document Buddy App**  
 ```bash
 streamlit run app.py
 ```
-
+✅ Open the **Streamlit web app** in your browser.  
 
 This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
 
