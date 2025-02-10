@@ -5,7 +5,7 @@ from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_community.vectorstores import Qdrant
 
 class EmbeddingsManager:
-    def __init__(
+    def __init__( 
         self,
         model_name: str = "BAAI/bge-small-en",
         device: str = "cpu",

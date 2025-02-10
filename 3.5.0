@@ -1,0 +1,16 @@
+Collecting keras
+  Using cached keras-3.8.0-py3-none-any.whl (1.3 MB)
+Requirement already satisfied: absl-py in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (2.1.0)
+Requirement already satisfied: numpy in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (1.26.4)
+Requirement already satisfied: rich in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (13.9.4)
+Requirement already satisfied: namex in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (0.0.8)
+Requirement already satisfied: h5py in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (3.12.1)
+Requirement already satisfied: optree in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (0.13.1)
+Requirement already satisfied: ml-dtypes in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (0.4.1)
+Requirement already satisfied: packaging in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from keras) (24.2)
+Requirement already satisfied: typing-extensions>=4.5.0 in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from optree->keras) (4.12.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from rich->keras) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from rich->keras) (2.18.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\ganes\desktop\ask-my-pdf\myenv\lib\site-packages (from markdown-it-py>=2.2.0->rich->keras) (0.1.2)
+Installing collected packages: keras
+Successfully installed keras-3.8.0

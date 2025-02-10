@@ -87,7 +87,7 @@ Helpful answer:
         self.retriever = self.db.as_retriever(search_kwargs={"k": 1})
 
         # Define chain type kwargs
-        self.chain_type_kwargs = {"prompt": self.prompt}
+        self.chain_type_kwargs = {"prompt": self.prompt} 
 
         # Initialize the RetrievalQA chain with return_source_documents=False
         self.qa = RetrievalQA.from_chain_type(
